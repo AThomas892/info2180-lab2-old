@@ -3,6 +3,7 @@
     width: 1400px;
     margin: 0 auto; 
     grid-template-columns: 70% 30%;
+    justify-content: center;
 }
 
 .imagecontainer{
@@ -18,6 +19,7 @@ aside{
 }
 
 header{
+    flex-direction: column;
     grid-column: span 2;
     display: flex;
     justify-content: center;
